@@ -1,0 +1,122 @@
+
+.container-country {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.phone-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.phone-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.flag-selector {
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.phone-number-field {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    border-left: 1px solid #ccc;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.group-form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-input {
+    flex: 1;
+}
+
+.country-selector-container {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.phone-input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.list-country {
+    width: 100%;
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.input-search {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc
+}
+
+.container-list-country {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 240px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
